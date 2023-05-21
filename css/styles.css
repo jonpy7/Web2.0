@@ -16,8 +16,8 @@ header {
   padding: 20px;
 }
 
-.section-title {
-  position: relative;
+div .section-title {
+  position:absolute;
   top: 0;
   right: 0;
   background-color: #FF0000; /* Set your desired background color */
@@ -30,6 +30,7 @@ header {
   .section {
     width: 50%;
     float: left;
+    
   }
 
   .section:nth-child(3) {
