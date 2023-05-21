@@ -1,1 +1,54 @@
 
+/* Custom font-family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* CSS for desktop view (992px and above) */
+.row {
+    width: 100%;
+}
+
+.section {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #EFEFEF;
+    margin: 10px;
+}
+
+/* CSS for tablet view (768px to 991px) */
+@media (max-width: 991px) {
+    .section {
+        width: 50%;
+        clear: none;
+    }
+    
+    .section:nth-child(3) {
+        width: 100%;
+        clear: both;
+    }
+}
+
+/* CSS for mobile view (767px and below) */
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+        clear: both;
+    }
+}
+
+/* CSS for section titles */
+.section h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFC300;
+    color: #333333;
+    padding: 5px;
+    margin: 0;
+    font-size: 125%;
+    border: 1px solid black;
+}
