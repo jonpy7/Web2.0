@@ -1,4 +1,4 @@
-# web2.0
+# Web2.0
 
 Create one index.html page
 1. Page must include a CSS file. No inline styles allowed. Your CSS file should be placed into a CSS folder under the solution container folder, e.g., module2-solution/css.
