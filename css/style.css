@@ -2,7 +2,7 @@
 /* Custom font-family */
 body {
     font-family: Arial, sans-serif;
-    background: darkblue;
+    background-color: #00008b;
 }
 /*mobile devices*/
 @media screen and (max-width: 767px) {
