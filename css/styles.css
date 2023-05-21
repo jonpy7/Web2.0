@@ -17,7 +17,7 @@ header {
 }
 
 .section-title {
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   background-color: #FF0000; /* Set your desired background color */
