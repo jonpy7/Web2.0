@@ -2,6 +2,7 @@
 /* Custom font-family */
 body {
     font-family: Arial, sans-serif;
+    background: darkblue;
 }
 /*mobile devices*/
 @media screen and (max-width: 767px) {
