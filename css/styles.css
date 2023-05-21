@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: black;
+  background-color: #FFFFFF; /* Default background color */
 }
 
 header {
@@ -15,26 +15,31 @@ header {
   border: 1px solid black;
   margin-bottom: 20px;
   padding: 20px;
+  background-color: #F0F0F0; /* Set your desired background color */
 }
 
-.section > div > .section-title {
-  position: relative;
-  box-sizing: border-box;
+.section-title {
+  position: absolute;
   top: 0;
   right: 0;
   background-color: #FF0000; /* Set your desired background color */
   color: #FFFFFF; /* Set a contrasting text color */
   padding: 5px 10px;
-  font-size: 125%; /* 25% larger font size */
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  .section {
+    width: 33.33%;
+    float: left;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .section {
     width: 50%;
     float: left;
-    clear: none; /* Remove clear property */
-    position: absolute;
-    margin: 10px;
+    clear: none;
   }
 
   .section:nth-child(3) {
@@ -45,14 +50,18 @@ header {
 @media (max-width: 767px) {
   .section {
     width: 100%;
-    margin-right: 0; /* Remove right margin */
-    margin-bottom: 20px; /* Add bottom margin */
   }
 }
 
-@media (min-width: 992px) {
-  .section {
-    width: 33.33%;
-    float: left;
-  }
+.dark-mode {
+  background-color: #000033; /* Set dark blue background color */
+  color: #FFFFFF; /* Set contrasting text color */
+}
+
+.dark-mode .section {
+  background-color: #111133; /* Set dark blue background color for sections */
+}
+
+.dark-mode .section-title {
+  background-color: #FF5500; /* Set contrasting background color for section titles */
 }
