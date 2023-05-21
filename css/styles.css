@@ -30,6 +30,8 @@ div .section-title {
   .section {
     width: 50%;
     float: left;
+    clear: right;
+    position: relative;
     
   }
 
