@@ -17,13 +17,12 @@ body {
   .section {
     width: 50%;
     float: left;
-    margin: 10px;
   }
-  .section:nth-child(2) {
+  .section:nth-child(3) {
     width: 100%;
   
   }
-    }
+}
 @media screen and (min-width: 992px) {
   .section {
   width: 33%;
