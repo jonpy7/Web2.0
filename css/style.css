@@ -18,6 +18,7 @@ body {
     width: 50%;
     float: left;
     margin: 10px;
+    clear: right;
   }
   .section:nth-child(3) {
     width: 100%;
