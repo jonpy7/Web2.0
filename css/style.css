@@ -12,7 +12,7 @@ body {
         margin: 10px 0;
       }
     }
-
+/*Tablet View */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .section {
     width: 50%;
@@ -26,7 +26,7 @@ body {
     }
 @media screen and (min-width: 992px) {
   .section {
-  width: 33.33%;
+  width: 33%;
   float: left;
   margin: 0px;
   position: absolute;
