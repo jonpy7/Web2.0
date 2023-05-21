@@ -13,28 +13,27 @@ header {
 .section {
   box-sizing: border-box;
   border: 1px solid black;
-  margin-bottom: 0 10px 20px;
+  margin-bottom: 20px;
   padding: 20px;
 }
 
-section > div > .section-title {
-  position:absolute;
+.section > div > .section-title {
+  position: absolute;
   box-sizing: border-box;
   top: 0;
   right: 0;
   background-color: #FF0000; /* Set your desired background color */
   color: #FFFFFF; /* Set a contrasting text color */
   padding: 5px 10px;
-  font-size: 25% larger;
+  font-size: 125%; /* 25% larger font size */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .section {
     width: 50%;
     float: left;
-    clear: right;
+    clear: none; /* Remove clear property */
     position: relative;
-    
   }
 
   .section:nth-child(3) {
@@ -45,6 +44,8 @@ section > div > .section-title {
 @media (max-width: 767px) {
   .section {
     width: 100%;
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Add bottom margin */
   }
 }
 
@@ -54,4 +55,3 @@ section > div > .section-title {
     float: left;
   }
 }
-
