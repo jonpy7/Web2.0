@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
 }
-
+/*mobile devices*/
 @media screen and (max-width: 767px) {
       .section {
         width: 100%;
@@ -11,46 +11,48 @@ body {
         margin: 10px 0;
       }
     }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-      .section {
-        width: 50%;
-        float: left;
-        margin: 10px;
-      }
-      .section:nth-child(3) {
-        width: 100%;
-        clear: both;
-      }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .section {
+    width: 50%;
+    float: left;
+    margin: 10px;
+  }
+  .section:nth-child(3) {
+    width: 100%;
+    clear: both;
+  }
     }
-    @media screen and (min-width: 992px) {
-      .section {
-        width: 33.33%;
-        float: left;
-        margin: 0px;
-        position: relative;
-      }
-    }
-    .section {
-      position: relative;
-      border: 1px solid black;
-      padding: 20px;
-      box-sizing: border-box;
-      background-color: #e6f7ff;
-    }
-    .section-title {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: #ff9999;
-      padding: 5px;
-      color: white;
-    }
-    h1 {
-      font-size: 24px;
-    }
-    .section-title h2 {
-      font-size: 18px;
-    }
-    p {
-      font-size: 16px;
-    }
+@media screen and (min-width: 992px) {
+  .section {
+  width: 33.33%;
+  float: left;
+  margin: 0px;
+  position: absolute;
+}
+}
+.section {
+  position: relative;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #e6f7ff;
+}
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff9999;
+  padding: 5px;
+  color: white;
+}
+h1 {
+  font-size: 24px;
+  align-items: center;
+}
+.section-title h2 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
